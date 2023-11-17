@@ -10,13 +10,3 @@ var listaFilmes = [
 for (var posicao = 0; posicao < listaFilmes.length; posicao++) {
   document.write("<img src=" + listaFilmes[posicao] + ">");
 }
-
-//listaFilmes.forEach(function(filme) {
-//  document.write("<img src=" + filme + ">");
-//});
-
-var posicao = 0;
-while (posicao < listaFilmes.length) {
- document.write("<img src=" + listaFilmes[posicao] + ">");
- posicao++; //incremento
-}
